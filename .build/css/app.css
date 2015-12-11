@@ -13204,3 +13204,86 @@ body.md-skin {
 
 .lightBoxGallery img {
   margin: 5px; }
+
+/* BACKGROUNDS SLIDER
+-------------------------------------------------- */
+.landing-page .header-back.one {
+  background-image: url("../../img/slide-payments.png");
+  background-repeat: no-repeat;
+  background-position: 80% 70%;
+  background-size: 30%;
+  background-color: #2f4050; }
+
+.landing-page .header-back.two {
+  background-image: url("../../img/slide-transfers.png");
+  background-repeat: no-repeat;
+  background-position: 90% 70%;
+  background-size: 45%;
+  background-color: #2f4050; }
+
+/* BUTTONS */
+.landing-page .navbar-default .navbar-brand {
+  background: #00b0f5; }
+
+.landing-page .btn-primary {
+  background-color: #00b0f5;
+  border-color: #00b0f5; }
+
+.landing-page .navbar-default .navbar-nav > .active > a,
+.landing-page .navbar-default .navbar-nav > .active > a:hover {
+  border-top: 6px solid #00b0f5; }
+
+.landing-page .navbar-default .navbar-brand:hover,
+.landing-page .navbar-default .navbar-brand:focus,
+.landing-page .btn-primary:hover,
+.landing-page .btn-primary:focus,
+.landing-page .btn-primary:active,
+.landing-page .btn-primary.active,
+.landing-page .open .dropdown-toggle.btn-primary {
+  background-color: #00a0df;
+  border-color: #00a0df; }
+
+/* GENERAL */
+.landing-page .navy-line {
+  border-bottom: 2px solid #00b0f5; }
+
+.landing-page .features small,
+.landing-page span.navy,
+.landing-page .features-icon {
+  color: #00b0f5; }
+
+.landing-page content-3 {
+  margin-top: 120px; }
+
+.landing-page .content-block {
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 60px; }
+
+.landing-page .content-block-text {
+  margin-top: 0px; }
+
+.landing-page .recognitions-logos {
+  display: flex;
+  align-items: center; }
+
+#finnosummit-logo {
+  padding-right: 0px;
+  padding-left: 0px; }
+
+#content-1-image,
+#content-2-image,
+#content-3-image {
+  width: 70%; }
+
+.landing-page .contact {
+  background-image: url("../../img/world-map.png");
+  margin-top: 0px;
+  background-color: #fff; }
+
+.landing-page .social-icon a {
+  background: #00b0f5; }
+
+.landing-page .social-icon a:hover {
+  background: #00a0df; }
