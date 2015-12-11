@@ -1,0 +1,12 @@
+@import '../components/bootstrap-sass/assets/stylesheets/_bootstrap';
+
+$icon-font-path: '../fonts/';
+
+//CSS
+@import '../components/font-awesome/css/font-awesome.css';
+@import '../components/animate.css/animate.css';
+
+@import 'inspinia/style';
+
+//Custom CSS
+@import 'custom.scss';
