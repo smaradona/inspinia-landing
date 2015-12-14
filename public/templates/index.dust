@@ -44,7 +44,7 @@
                     	{@pre type="content" key="index.slide1SubTitleB"/}
                     </p>
                     <p>
-                    	<a class="btn btn-lg btn-primary" href="#" role="button">
+                    	<a class="btn btn-lg btn-primary" href="#payment-processor" role="button">
                     		{@pre type="content" key="index.readMore"/}
                     	</a>
                     </p>
@@ -66,10 +66,10 @@
                     	{@pre type="content" key="index.slide2SubTitleB"/}
                     </p>
                     <p>
-                    	<a class="btn btn-lg btn-primary m-r-sm" href="#" role="button">
+                    	<a class="btn btn-lg btn-primary m-r-sm" href="#prepaid-cards" role="button">
                     		{@pre type="content" key="index.prepaidCards"/}
                     	</a>
-                    	<a class="btn btn-lg btn-primary" href="#" role="button">
+                    	<a class="btn btn-lg btn-primary" href="#global-transfers" role="button">
                     		{@pre type="content" key="index.globalTransfers"/}
                     	</a>
                     </p>
@@ -91,9 +91,9 @@
 <br/>
 <div class="row">
     <div class="col-md-4 col-md-offset-4">
-        <button type="button" class="btn btn-primary btn-block btn-lg" data-toggle="modal" data-target="#registerModal">
+        <a class="btn btn-primary btn-block btn-lg" href="https://olpays/user/register">
             {@pre type="content" key="index.registerButton"/}
-        </button>
+        </a>
     </div>
 </div>
 <section  id="features" class="container features">
@@ -138,7 +138,7 @@
             <h1>{@pre type="content" key="index.discoverGreatTools"/}</h1>
         </div>
     </div>
-    <div class="row features-block content-block">
+    <div id="payment-processor" class="row features-block content-block">
         <div class="col-xs-offset-2 col-xs-4 features-text wow fadeInLeft content-block-text">
             <h2 class="cyan-text">{@pre type="content" key="index.content1Title"/}</h2>
             <p>{@pre type="content" key="index.content1Description"/}</p>
@@ -147,7 +147,7 @@
             <img src="img/payment-processor.png" alt="payment-processor" id="content-1-image" class="img-responsive">
         </div>
     </div>
-    <div class="row features-block content-block">
+    <div id="prepaid-cards" class="row features-block content-block">
         <div class="col-xs-offset-2 col-xs-4 features-text wow fadeInLeft content-block-text">
             <h2 class="cyan-text">{@pre type="content" key="index.content2Title"/}</h2>
             <p>{@pre type="content" key="index.content2Description"/}</p>
@@ -156,7 +156,7 @@
             <img src="img/prepaid-card1.png" alt="prepaid-card1" id="content-2-image" class="img-responsive">
         </div>
     </div>
-    <div class="row features-block content-block">
+    <div id="global-transfers" class="row features-block content-block">
         <div class="col-xs-offset-2 col-xs-4 features-text wow fadeInLeft content-block-text">
             <h2 class="cyan-text">{@pre type="content" key="index.content3Title"/}</h2>
             <p>{@pre type="content" key="index.content3Description"/}</p>
@@ -266,28 +266,6 @@
         </div>
     </div>
 </section>
-
-<div class="modal fade" tabindex="-1" role="dialog" id="registerModal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Modal title</h4>
-            </div>
-            <div class="modal-body">
-                <p>One fine body&hellip;</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">
-                    {@pre type="content" key="index.registerModal.closeButton"/}
-                </button>
-                <button type="submit" class="btn btn-primary">
-                    {@pre type="content" key="index.registerModal.closeButton"/}
-                </button>
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
 
 <!-- Local script for menu handle -->
 <!-- It can be also directive -->
