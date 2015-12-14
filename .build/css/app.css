@@ -13300,4 +13300,5 @@ body.md-skin {
 @media (max-width: 768px) {
   .landing-page .recognitions-logos {
     display: flex;
-    justify-content: center; } }
+    justify-content: center;
+    margin: 0; } }
