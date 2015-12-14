@@ -1,6 +1,8 @@
 {
   "name": "",
-  "version": "0.1.0",
+  "version": "0.0.1",
+  "private": true,
+  "license": "UNLICENSED",
   "description": "Olpays Landing Page Application",
   "author": "Santiago Maradona",
   "main": "index.js",
@@ -25,6 +27,7 @@
     "grunt-config-dir": "^0.3.2",
     "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "^0.11.0",
     "grunt-copy-to": "0.0.10",
     "grunt-dustjs": "^1.2.1",
     "grunt-mocha-cli": "^1.14.0",

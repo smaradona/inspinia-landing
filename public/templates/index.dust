@@ -1,7 +1,7 @@
 {>"layouts/master" /}
 
 {<title}
-    Olpays
+    Olpays - Home
 {/title}
 
 {<body}
@@ -19,10 +19,11 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a class="page-scroll" page-scroll href="#page-top">Home</a></li>
+                    <li class="active"><a class="page-scroll" page-scroll href="#inSlider">Home</a></li>
                     <li><a class="page-scroll" page-scroll href="#features">{@pre type="content" key="index.menuItem2"/}</a></li>
                     <li><a class="page-scroll" page-scroll href="#tools">{@pre type="content" key="index.menuItem3"/}</a></li>
                     <li><a class="page-scroll" page-scroll href="#contact">{@pre type="content" key="index.menuItem4"/}</a></li>
+                    <li><a class="page-scroll" href="https://olpays.com/login">{@pre type="content" key="index.loginButton"/}</a></li>
                 </ul>
             </div>
         </div>
@@ -57,7 +58,7 @@
             <div class="container">
                 <div class="carousel-caption blank">
                     <h1>
-                    	{@pre type="content" key="index.slide2TitleA"/}</br>
+                    	{@pre type="content" key="index.slide2TitleA"/} <br />
                     	{@pre type="content" key="index.slide2TitleB"/}
                     </h1>
                     <p>
@@ -260,10 +261,12 @@
 
 <!-- Local script for menu handle -->
 <!-- It can be also directive -->
+{/body}
 
+{<scripts}
 <script>
     $(document).ready(function () {
-        // Page scrolling feature
+        /** Page scrolling feature */
         $('a.page-scroll').bind('click', function(event) {
             var link = $(this);
             $('html, body').stop().animate({
@@ -289,10 +292,10 @@
         function scrollPage() {
             var sy = scrollY();
             if ( sy >= changeHeaderOn ) {
-                $(header).addClass('navbar-scroll')
+                $(header).addClass('navbar-scroll');
             }
             else {
-                $(header).removeClass('navbar-scroll')
+                $(header).removeClass('navbar-scroll');
             }
             didScroll = false;
         }
@@ -303,4 +306,4 @@
 
     })();
 </script>
-{/body}
+{/scripts}
